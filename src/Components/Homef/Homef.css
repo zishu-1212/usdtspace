@@ -1,0 +1,50 @@
+.homef_main {
+  padding: 100px 0px;
+  background-image: #1b1f26;
+}
+
+.homef_h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase !important;
+  font-family: 'Rajdhani', sans-serif;
+  color: #008a81 !important;
+  /* line-height: 1.25; */
+  font-weight: 700;
+  text-align: left;
+}
+
+.homef_p {
+  font-size: 1.125rem;
+  color: #fff;
+  max-inline-size: 50ch;
+  text-align: left;
+}
+
+.ani {
+  animation: glide 2s ease-in-out alternate infinite;
+  position: relative;
+}
+
+@keyframes glide {
+  from {
+    left: 0px;
+    top: 0px;
+  }
+
+  to {
+    left: 0px;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home_f_img {
+    width: 250px !important;
+  }
+
+  .homef_h1 {
+    font-size: 20px;
+  }
+}
